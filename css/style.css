@@ -39,9 +39,24 @@
     transform: translateZ(-20px) scale(3);
 }
 
-.travelingHeading{
+.Heading{
     color: white;
     font-size: 5rem;
     font-style: bold;
     font-weight: bolder;
+}
+
+.description{
+    background-color:gray;
+    padding: 100px;
+    color: white;
+}
+
+.description > h1{
+    padding-bottom: 100px;
+}
+
+.description > p{
+    line-height: 40px;
+    z-index: 1;
 }
