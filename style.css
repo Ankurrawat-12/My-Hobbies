@@ -95,3 +95,28 @@
     align-items: center;
 }
 
+@media (max-width: 600px) {
+    .Heading{
+        color: white;
+        font-size: 2rem;
+        font-style: bold;
+        font-weight: bolder;
+        z-index: 1;
+    }
+
+    .description{
+        background-color:gray;
+        padding: 50px 25px;
+        color: white;
+        text-align: center;
+    }
+    
+    .description > h1{
+        padding-bottom: 50px;
+    }
+    
+    .description > p{
+        line-height: 25px;
+        z-index: 1;
+    }
+}
