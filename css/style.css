@@ -71,15 +71,15 @@
 } */
 
 .anime{
-    background-image: url("/Images/anime\ \(2\).jpg");
+    background-image: url("./Images/anime\ \(2\).jpg");
 }
 
 .football{
-    background-image: url("/Images/football.jpg");
+    background-image: url("./Images/football.jpg");
 }
 
 .exercise{
-    background-image: url("/Images/exercise.jpg");
+    background-image: url("./Images/exercise.jpg");
 }
 
 
