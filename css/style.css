@@ -61,11 +61,37 @@
     z-index: 1;
 }
 
-.anime, .football, .exercise{
+/* .anime, .football, .exercise{
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -2;
     object-fit: cover;
     transform: translateZ(-40px) scale(5.5);
+} */
+
+.anime{
+    background-image: url("/Images/anime\ \(2\).jpg");
 }
+
+.football{
+    background-image: url("/Images/football.jpg");
+}
+
+.exercise{
+    background-image: url("/Images/exercise.jpg");
+}
+
+
+.containerImg{
+    height: 45vh;
+    background-attachment: fixed;
+    display: flex;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
